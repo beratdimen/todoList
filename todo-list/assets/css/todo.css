@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.container button {
+  padding: 4px 12px;
+  color: aqua;
+  background-color: black;
+}
+
+.container input {
+  font-style: italic;
+  margin-bottom: 20px;
+  padding: 4px 12px;
+
+}
+
+.container h4 {
+  color: red;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: 1.3px;
+  margin-bottom: 20px;
+}
+
+.container ul {
+  list-style-type: decimal;
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.box {
+  background-color: lightcoral;
+}
